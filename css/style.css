@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Start Navbar */
+.navbar{
+    background-color: black;
+}
+.navbar-brand img{
+    height: 80px;
+    /* width: 80px; */
+}
+.navbar #navbarNav .custom-nav .nav-item a{
+    color: whitesmoke;
+    /* padding-right: 20px;  */
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 18px;
+}
+.fa-bars{
+    color: white;
+}
+.navbar #navbarNav .custom-nav .nav-item a:hover{
+    color: #4ec550;
+}
+.navbar #navbarNav .custom-nav .nav-item a:active{
+    color: ;
+}
+/* End Navbar */
+
+/* Start Header */
+header .banner{
+    background-color: rgba(111, 66, 193, 0.1);
+    border-bottom-right-radius: 50%;
+    height: 55vh;
+    overflow: hidden;
+    margin-top: 100px !important;
+    /* z-index: 9999; */
+}
+.banner-text #one{
+    color: #c63148;
+    font-size: 50px;
+} 
+.banner-text span{
+    color: #4ec550;
+    font-size: 50px;
+}
+.banner .banner-text h1,p {
+    font-family: 'Play', sans-serif;
+}
+.banner-text .btn{
+    background-color: #c63148;
+    color: white;
+}
+.banner-text .btn:hover{
+    color: #4ec550;
+}
+.banner .img-class img{
+    height: 50vh;
+}
+/* End Header */
+
+/* Start Main Section */
+.main-sec .heading{
+    font-family: 'Play', sans-serif;
+    position: relative;
+    line-height: 10px;
+}
+.main-sec .heading::after{
+    content: '';
+    background: linear-gradient( to right,  #c63148,#4ec550);
+    width: 80px;
+    height:5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50px);
+}
+.la-text .main-para{
+    font-family: 'Jura', sans-serif;
+    font-size: 20px;
+}
+/* End Main Section */
+
+.counters .counts{
+    font-family: 'Play', sans-serif;
+    color: #c63148;
+}
+.counters .para{
+    /* font-family: 'Jura', sans-serif; */
+    
+}
+
+/* Start Footer */
+.footer-bg{
+    background-color: black;
+}
+.footer-text h3{
+    font-family: 'Play', sans-serif;
+}
+.footer-text a{
+    text-decoration: none;
+    color: white;
+}
+.footer-text img{
+    height: 80px;
+    
+}
+.footer-text .fa-whatsapp{
+    color: white;
+    font-size: 25px;
+    margin-right: 5px;
+}
+.footer-text .fa-envelope{
+    color: white;
+    font-size: 25px;
+    margin-right: 5px;
+}
+.footer-text .fa-instagram{
+    font-size: 25px;
+}
+.footer-text .fa-facebook-square{
+    font-size: 25px;
+    margin-left: 10px;
+}
+/* End Footer */
+
+/* Categories Section */
+.main-sec-categories{
+    margin-top: 130px;
+}
+.main-sec-categories .heading{
+    font-family: 'Play', sans-serif;
+    position: relative;
+    line-height: 10px;
+    padding-top: 40px;
+    
+}
+.main-sec-categories .heading::after{
+    content: '';
+    background: linear-gradient( to right,  #c63148,#4ec550);
+    width: 80px;
+    height:5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50px);
+}
+
+
+.cosmetics .heading{
+    font-family: 'Play', sans-serif;
+    position: relative;
+    line-height: 10px;
+    padding-top: 40px;
+    
+}
+.cosmetics .heading::after{
+    content: '';
+    background: linear-gradient( to right,  #c63148,#4ec550);
+    width: 80px;
+    height:5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50px);
+}
+/* End Catgories Section */
+
+
+/* Start Services  */
+.services{
+    margin-top: 150px !important;
+}
+.services .heading{
+    font-family: 'Play', sans-serif;
+    position: relative;
+    line-height: 10px;
+    padding-top: 40px;
+}
+.services .heading::after{
+    content: '';
+    background: linear-gradient( to right,  #c63148,#4ec550);
+    width: 80px;
+    height:5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50px);
+}
+.services .g-pay{
+    /* border: 1px solid gray; */
+    box-shadow: 2px 3px 5px gray;
+    padding-top: 6px;  
+    border-radius: 50px;
+}
+.services .amazon-pay{
+    box-shadow: 2px 3px 5px gray;
+    padding-top: 15px;  
+    border-radius: 50px;
+}
+.other-service img{
+    height: 300px;
+}
+.other-service .btn{
+    background-color: #c63148;
+    color: white;
+}
+.other-service .ser-para{
+    font-family: 'Jura', sans-serif;
+    font-size: 20px;
+    
+}
+/* End Services  */
+
+/* Start About */
+.about-sec{
+    margin-top: 150px !important;
+}
+.about-sec .heading{
+    font-family: 'Play', sans-serif;
+    position: relative;
+    line-height: 10px;
+    padding-top: 40px;
+}
+.about-sec .heading::after{
+    content: '';
+    background: linear-gradient( to right,  #c63148,#4ec550);
+    width: 80px;
+    height:5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    /* right: 50%; */
+    transform: translateX(-50px);
+}
+.about-sec .about-heading{
+    font-family: 'Baloo Da 2', cursive;
+}
+.about-sec p{
+    font-family: 'Jura', sans-serif;
+    font-size: 20px;
+}
+.owners .heading{
+    font-family: 'Baloo Da 2', cursive;
+}
+.owners .heading::after{
+    content: '';
+    background: linear-gradient( to right,  #c63148,#4ec550);
+    width: 80px;
+    height:5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    /* right: 50%; */
+    transform: translateX(-50px);
+}
+.owners .card{
+    border-radius: 50px;
+}
+.owners .card h3{
+    font-family: 'Baloo Da 2', cursive;
+}
+.owners .btn{
+    background-color: #c63148;
+    color: white;
+}
+.owners .card{
+    box-shadow: 1px 2px 3px gray;
+}
+/* End About */
+
+/* Contact Form */
+.contact-form .heading{
+    font-family: 'Baloo Da 2', cursive;
+}
+.contact-form .heading::after{
+    content: '';
+    background: linear-gradient( to right,  #c63148,#4ec550);
+    width: 80px;
+    height:5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    /* right: 50%; */
+    transform: translateX(-50px);
+}
+.contact-form{
+    margin-top: 200px;
+}
+/* End Contact Form */
+
+@media (max-width:500px){
+    .services .g-pay{
+        margin-bottom: 20px;
+    }
+}
